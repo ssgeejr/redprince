@@ -1,0 +1,8 @@
+---
+
+- hosts: redprince
+  gather_facts: false
+  tasks:
+    - name: "Ping?"
+      ping:
+      become_user: devops
